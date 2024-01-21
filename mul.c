@@ -23,7 +23,7 @@ void f_mul(stack_t **head, unsigned int counter)
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
-		exit(EXIT_FAILFURE);
+		exit(EXIT_FAILURE);
 	}
 	h = *head;
 	aux = h->next->n * h->n;
