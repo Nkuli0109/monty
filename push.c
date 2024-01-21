@@ -22,7 +22,7 @@ void f_push(stack_t **head, unsigned int counter)
 		{	fprintf(stderr, "L%d: usage: push integer\n", counter);
 			fclose(bus.file);
 			free(bus.content);
-			tree_stack(*head);
+			free_stack(*head);
 			exit(EXIT_FAILURE); }}
 	else
 	{	fprintf(stderr, "L%d: usage: push integer\n", counter);

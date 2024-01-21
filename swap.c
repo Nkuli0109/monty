@@ -9,7 +9,7 @@
 void f_swap(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
-	int len = , aux;
+	int len = 0, aux;
 
 	h = *head;
 	while (h)
